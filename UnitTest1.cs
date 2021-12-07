@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace TestProject1
 {
-    public class Tests
+    public class SanityTests
     {
         [SetUp]
         public void Setup()
@@ -10,7 +10,19 @@ namespace TestProject1
         }
 
         [Test]
-        public void Test1()
+        public void CreateAndReadPrecondition()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void CreateAndReadStep()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void CreateAndReadChangeHistory()
         {
             Assert.Pass();
         }
