@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace TestProject1
+namespace IntegrationTests
 {
     public class SanityTests
     {
@@ -26,5 +26,12 @@ namespace TestProject1
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void CreateAndReadChildStepTest()
+        {
+            Assert.Pass();
+        }
+
     }
 }
