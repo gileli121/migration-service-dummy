@@ -18,7 +18,8 @@ namespace IntegrationTests
         [Test(Description = "Create and Read Step")]
         public void CreateAndReadStep()
         {
-            Assert.Pass();
+            Assert.AreEqual("Description A", "?????????? ???",
+                "Migration Service failed to read the expected step description");
         }
 
         [Test(Description = "Create and Read Change History")]
