@@ -9,25 +9,25 @@ namespace IntegrationTests
         {
         }
 
-        [Test]
+        [Test(Description = "Create and Read Precondition")]
         public void CreateAndReadPrecondition()
         {
             Assert.Pass();
         }
 
-        [Test]
+        [Test(Description = "Create and Read Step")]
         public void CreateAndReadStep()
         {
             Assert.Pass();
         }
 
-        [Test]
+        [Test(Description = "Create and Read Change History")]
         public void CreateAndReadChangeHistory()
         {
             Assert.Pass();
         }
 
-        [Test]
+        [Test(Description = "Create and Read Child-Step")]
         public void CreateAndReadChildStepTest()
         {
             Assert.Pass();
